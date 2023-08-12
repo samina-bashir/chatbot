@@ -1,0 +1,318 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello! I'm here to brighten your day.",
+                "Hi there, how can I bring a smile to your face?",
+                "Good to see you again! Ready to make today better?"
+            ],
+            "context": []
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Take care and remember, I'm here whenever you need a lift!",
+                "Goodbye! Keep your chin up and come back whenever you want to chat.",
+                "See you! Remember to find joy in the little things."
+            ],
+            "context": []
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for being there"
+            ],
+            "responses": [
+                "You're welcome! It's my pleasure to help.",
+                "Anytime you need a mood boost, just let me know!",
+                "I'm here to support you. Remember, you're not alone."
+            ],
+            "context": []
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I didn't quite catch that. Could you please rephrase?",
+                "It seems like I need a bit more context. Can you provide more details?",
+                "I'm here to help, but I'm having trouble understanding. Could you try again?"
+            ],
+            "context": []
+        },
+        {
+            "tag": "positive_affirmation",
+            "patterns": [
+                "I'm feeling down",
+                "I need a boost",
+                "Can you make me smile?",
+                "Tell me something happy",
+                "I'm struggling today"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Remember, tough times don't last forever. You're strong and capable!",
+                "I'm here to remind you that you're amazing just the way you are.",
+                "I understand it's not always easy, but I believe in you. Let's focus on the good together."
+            ],
+            "context": []
+        },
+        {
+            "tag": "relaxation_techniques",
+            "patterns": [
+                "Help me relax",
+                "I'm feeling stressed",
+                "How can I calm down?",
+                "Share relaxation tips",
+                "Ways to relieve anxiety"
+            ],
+            "responses": [
+                "Take a deep breath. Inhale for 4 counts, hold for 4, exhale for 4. Repeat.",
+                "Try progressive muscle relaxation: tense and then release each muscle group.",
+                "Visualize a peaceful place. Imagine every detail and let the calm wash over you.",
+                "Mindfulness can help. Focus on the present moment without judgment."
+            ],
+            "context": []
+        },
+        {
+            "tag": "self_care",
+            "patterns": [
+                "How can I practice self-care?",
+                "I need some self-love",
+                "Ways to take care of myself",
+                "Tell me about self-care",
+                "How to prioritize my well-being?"
+            ],
+            "responses": [
+                "Self-care is important. Find activities you enjoy and make time for them.",
+                "Remember to rest and recharge. You deserve a break.",
+                "Taking care of yourself isn't selfish, it's necessary. Prioritize your well-being.",
+                "Whether it's a bubble bath, a walk in nature, or reading a book, make time for things that make you feel good."
+            ],
+            "context": []
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I need motivation",
+                "Give me a pep talk",
+                "Motivate me",
+                "I'm feeling demotivated",
+                "Help me stay focused"
+            ],
+            "responses": [
+                "You've got this! Remember your goals and the amazing things you can achieve.",
+                "Every step forward, no matter how small, is progress. Keep moving!",
+                "Believe in yourself. You have the power to overcome any challenge.",
+                "Think of challenges as opportunities to grow. You're becoming stronger with every hurdle you overcome."
+            ],
+            "context": []
+        },
+        {
+            "tag": "gratitude",
+            "patterns": [
+                "How can I practice gratitude?",
+                "Help me appreciate life",
+                "Teach me gratitude",
+                "Why is gratitude important?",
+                "Ways to be thankful"
+            ],
+            "responses": [
+                "Start a gratitude journal. Write down three things you're thankful for every day.",
+                "Take a moment to reflect on the positive aspects of your life, even in difficult times.",
+                "Express appreciation to someone you care about. It can brighten their day and yours.",
+                "Gratitude can shift your focus from what's lacking to what you have. It's a powerful mindset."
+            ],
+            "context": []
+        },
+        {
+            "tag": "mindfulness",
+            "patterns": [
+                "What is mindfulness?",
+                "Teach me mindfulness",
+                "How to be present",
+                "Mindful practices",
+                "Benefits of mindfulness"
+            ],
+            "responses": [
+                "Mindfulness is about being fully present in the moment without judgment. Focus on your breath or sensations.",
+                "Try a body scan: Pay attention to each part of your body, noticing any tension or sensations.",
+                "Engage in mindful eating. Savor each bite and pay attention to the flavors and textures.",
+                "Mindfulness can reduce stress and improve your overall well-being. Give it a try!"
+            ],
+            "context": []
+        },
+        {
+            "tag": "positivity_quotes",
+            "patterns": [
+                "Share a positive quote",
+                "Give me an uplifting quote",
+                "Inspire me with a quote",
+                "Quote of the day",
+                "Tell me something positive"
+            ],
+            "responses": [
+                "Here's a quote: 'The only way to do great work is to love what you do.' - Steve Jobs",
+                "Remember: 'Every day may not be good, but there's something good in every day.'",
+                "Here's an uplifting quote: 'You are never too old to set another goal or to dream a new dream.' - C.S. Lewis",
+                "Stay positive: 'The future depends on what you do today.' - Mahatma Gandhi"
+            ],
+            "context": []
+        },
+        {
+            "tag": "social_connection",
+            "patterns": [
+                "I'm feeling lonely",
+                "Help me connect with others",
+                "Combat loneliness",
+                "Ways to socialize",
+                "How to make friends"
+            ],
+            "responses": [
+                "Connecting with others is important. Reach out to a friend or family member you haven't spoken to in a while.",
+                "Join a local club or group that aligns with your interests. It's a great way to meet new people.",
+                "Consider volunteering. Not only does it help others, but it can also lead to meaningful connections.",
+                "Remember, you're never truly alone. I'm here to chat and provide support whenever you need."
+            ],
+            "context": []
+        },
+        {
+            "tag": "stress_management",
+            "patterns": [
+                "How to manage stress?",
+                "I'm feeling overwhelmed",
+                "Help me cope with stress",
+                "Stress relief techniques",
+                "Reduce stress"
+            ],
+            "responses": [
+                "Practice deep breathing exercises to instantly calm your mind.",
+                "Engage in regular physical activity. Exercise is a great stress reliever.",
+                "Try progressive muscle relaxation: tense and relax each muscle group in your body.",
+                "Mindful meditation can help you become more resilient to stress. Give it a shot!"
+            ],
+            "context": []
+        },
+        {
+            "tag": "goal_setting",
+            "patterns": [
+                "How to set goals?",
+                "Help me set a goal",
+                "Goal achievement strategies",
+                "Guide me in setting goals",
+                "How to stay focused on goals?"
+            ],
+            "responses": [
+                "Start by setting SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound.",
+                "Break big goals into smaller, manageable steps. Each step brings you closer to success.",
+                "Visualize your goals and imagine the joy of achieving them. It can boost motivation.",
+                "Celebrate your progress along the way. Rewarding yourself helps maintain enthusiasm."
+            ],
+            "context": []
+        },
+        {
+            "tag": "creative_outlet",
+            "patterns": [
+                "How can I express myself creatively?",
+                "Inspire my creativity",
+                "Creative activities",
+                "Artistic outlets",
+                "I need a creative boost"
+            ],
+            "responses": [
+                "Try journaling or writing a short story. Putting your thoughts on paper can be cathartic.",
+                "Experiment with painting, drawing, or crafting. Creative expression is a wonderful outlet.",
+                "Learn a musical instrument or explore digital art. Embrace your inner artist!",
+                "Express yourself through dance or movement. It's a unique way to release emotions."
+            ],
+            "context": []
+        },
+        {
+            "tag": "mindset_shift",
+            "patterns": [
+                "How to change my mindset?",
+                "Help me shift my perspective",
+                "Mindset transformation",
+                "Positive thinking techniques",
+                "Change negative thoughts"
+            ],
+            "responses": [
+                "Practice reframing negative thoughts. Turn challenges into opportunities for growth.",
+                "Surround yourself with positive influences. Your environment can greatly impact your mindset.",
+                "Start a daily gratitude practice. Focusing on the good can shift your perspective.",
+                "Use affirmations to challenge and overcome self-doubt. Believe in your abilities!"
+            ],
+            "context": []
+        },
+        {
+            "tag": "laughter",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "I need a good laugh",
+                "Share a funny story",
+                "Joke of the day"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+                "What do you call a fake noodle? An impasta!",
+                "Why don't oysters donate to charity? Because they're shellfish!"
+            ],
+            "context": []
+        },
+        {
+            "tag": "time_management",
+            "patterns": [
+                "How to manage my time better?",
+                "Help me with time management",
+                "Effective time management",
+                "Time-saving tips",
+                "Balancing work and life"
+            ],
+            "responses": [
+                "Use the Pomodoro Technique: Work for 25 minutes, then take a 5-minute break.",
+                "Prioritize tasks using the Eisenhower Matrix: Urgent, Important, Delegate, Eliminate.",
+                "Set specific time blocks for different tasks. It keeps you focused and organized.",
+                "Don't forget to schedule time for self-care and relaxation. Balance is key!"
+            ],
+            "context": []
+        },
+        {
+            "tag": "reflection",
+            "patterns": [
+                "How can I reflect on my day?",
+                "Help me practice self-reflection",
+                "Daily reflection exercises",
+                "Reflecting on experiences",
+                "Why is self-reflection important?"
+            ],
+            "responses": [
+                "Take a few minutes each evening to journal about your day. Reflect on what went well and what you learned.",
+                "Ask yourself three things you're grateful for and one thing you could improve upon.",
+                "Visualize your day from start to finish, focusing on moments of joy and growth.",
+                "Self-reflection can increase self-awareness and lead to positive personal development."
+            ],
+            "context": []
+        }
+      ]
+}
